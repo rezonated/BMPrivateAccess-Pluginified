@@ -1,9 +1,13 @@
 # BMPrivateAccess-Pluginified
-This is just a pluginified version of BMPrivateAccess a library to access non-public members and functions, created by Blueman2 on GitHub.
+This is just a pluginified version of BMPrivateAccess a library to access non-public members and functions, created by [Blueman2](https://github.com/Blueman2) - [Original BMPrivateAccess repo](https://github.com/Blueman2/BMPrivateAccess)
 
 Tested in UE 5.5 using MSVC with latest C++ standard enabled.
 
 Technically the library supports C++17, so it can be used in UE 4.27 as well.
+
+## Installation
+Clone the repo with submodules using
+``` git clone --recursive https://github.com/rezonated/BMPrivateAccess-Pluginified.git ``` command
 
 ## Usage in Unreal Engine code example
 ```cpp
