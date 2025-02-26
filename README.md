@@ -6,8 +6,9 @@ Tested in UE 5.5 using MSVC with latest C++ standard enabled.
 Technically the library supports C++17, so it can be used in UE 4.27 as well.
 
 ## Installation
-Clone the repo with submodules using
-``` git clone --recursive https://github.com/rezonated/BMPrivateAccess-Pluginified.git ``` command
+- Clone the repo with submodules using ``` git clone --recursive https://github.com/rezonated/BMPrivateAccess-Pluginified.git ``` command inside your C++ project's ```Plugins/``` folder.
+- Enable the ```BMPrivateAccess``` plugin by modifying the ```.uproject``` or via editor,
+- In your C++ module's ```Build.cs```, add ```BMPrivateAccess``` as the dependency.
 
 ## Usage in Unreal Engine code example
 ```cpp
