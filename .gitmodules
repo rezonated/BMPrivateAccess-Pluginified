@@ -1,0 +1,3 @@
+[submodule "Source/BMPrivateAccess/ThirdParty/BMPrivateAccess"]
+	path = Source/BMPrivateAccess/ThirdParty/BMPrivateAccess
+	url = https://github.com/rezonated/BMPrivateAccess.git
